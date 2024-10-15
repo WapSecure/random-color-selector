@@ -103,7 +103,7 @@ const WheelPage: React.FC = () => {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded shadow-lg">
             <h2>Thank you for participating in the spin!</h2>
-            <p>We hope to see you on Sunday 26th, October 2024.</p>
+            <p>We hope to see you on Saturday 26th, October 2024.</p>
             <p>Remember your colour for that day is {selectedColor}.</p>
 
             <p>
