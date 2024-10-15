@@ -36,12 +36,12 @@ const WheelPage: React.FC = () => {
   };
 
   const handleOkClick = () => {
-    setOpenModal(true); 
+    setOpenModal(true);
   };
 
   const handleCloseModal = () => {
-    setOpenModal(false); 
-    navigate("/"); 
+    setOpenModal(false);
+    navigate("/");
   };
 
   return (
@@ -102,8 +102,15 @@ const WheelPage: React.FC = () => {
       {openModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded shadow-lg">
-            <h2>Thank you for participating!</h2>
-            <p>Your selected color for the event is {selectedColor}.</p>
+            <h2>Thank you for participating in the spin!</h2>
+            <p>We hope to see you on Sunday 26th, October 2024.</p>
+            <p>Remember your colour for that day is {selectedColor}.</p>
+
+            <p>
+              Don't forget to bring your gift for Nonye. See you on the 26th
+              October.
+            </p>
+
             <button
               onClick={handleCloseModal}
               className="mt-4 bg-red-500 text-white px-4 py-2 rounded"
