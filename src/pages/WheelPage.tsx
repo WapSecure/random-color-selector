@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom"; // Import useNavigate for routing
 import "./WheelStyles.css";
 
-const colors = ["Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink"];
+const colors = ["Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Pink", "Black", "DarkGray"];
 
 const WheelPage: React.FC = () => {
   const location = useLocation();

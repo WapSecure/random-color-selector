@@ -30,13 +30,51 @@
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-.red { background-color: red; transform: rotate(0deg); }
-.blue { background-color: blue; transform: rotate(51.4deg); }
-.green { background-color: green; transform: rotate(102.8deg); }
-.yellow { background-color: yellow; transform: rotate(154.2deg); }
-.purple { background-color: purple; transform: rotate(205.6deg); }
-.orange { background-color: orange; transform: rotate(257deg); }
-.pink { background-color: pink; transform: rotate(308.4deg); }
+.red {
+    background-color: red;
+    transform: rotate(0deg);
+}
+
+.blue {
+    background-color: blue;
+    transform: rotate(40deg);
+}
+
+.green {
+    background-color: green;
+    transform: rotate(80deg);
+}
+
+.yellow {
+    background-color: yellow;
+    transform: rotate(120deg);
+}
+
+.purple {
+    background-color: purple;
+    transform: rotate(160deg);
+}
+
+.orange {
+    background-color: orange;
+    transform: rotate(200deg);
+}
+
+.pink {
+    background-color: pink;
+    transform: rotate(240deg);
+}
+
+.black {
+    background-color: black;
+    transform: rotate(280deg);
+}
+
+.darkgray {
+    background-color: darkgray;
+    transform: rotate(320deg);
+}
+
 
 .spinning {
     animation: spin 2s ease-out;
