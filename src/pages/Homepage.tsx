@@ -27,7 +27,7 @@ const HomePage: React.FC = () => {
         Many more years and achievements to come.
       </p>
       <p className="text-center">
-        We want to surprise her as she clocks half. join her to participate in
+        We want to surprise her as she clocks half a milestone. Join her to participate in
         our color-themed snack potluck. Clue of items to bring are Biscuits,
         chocolates, Cookies, Sweets etc.
       </p>
