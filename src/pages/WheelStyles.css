@@ -1,0 +1,57 @@
+.wheel-container {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.wheel {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 2s ease-out;
+}
+
+.slice {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0 0;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+
+.slice.highlighted {
+    opacity: 1;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.red { background-color: red; transform: rotate(0deg); }
+.blue { background-color: blue; transform: rotate(51.4deg); }
+.green { background-color: green; transform: rotate(102.8deg); }
+.yellow { background-color: yellow; transform: rotate(154.2deg); }
+.purple { background-color: purple; transform: rotate(205.6deg); }
+.orange { background-color: orange; transform: rotate(257deg); }
+.pink { background-color: pink; transform: rotate(308.4deg); }
+
+.spinning {
+    animation: spin 2s ease-out;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(1080deg); } /* Adjust for full 3 turns */
+}
+
+/* Visual representation of the selected color beside text */
+.selected-color-box {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+    display: inline-block;
+}
