@@ -22,14 +22,14 @@ const HomePage: React.FC = () => {
       />
       <p className="text-lg text-center mb-4">
         <span className="bg-gradient-to-r from-red-500 via-yellow-500 to-green-500 bg-clip-text text-transparent font-bold text-3xl">
-          Happy birthday to Nonye Ezike!
+          Happy birthday to Nonnie Ezike!
         </span>{" "}
-        Many more years to come and more achievements.
+        Many more years and achievements to come.
       </p>
       <p className="text-center">
-        We want to surprise her and you are going to be a part of it by
-        participating in this color wheel to choose the color of the attire you
-        would wear to her birthday party on 26th October 2024.
+        We want to surprise her as she clocks half. join her to participate in
+        our color-themed snack potluck. Clue of items to bring are Biscuits,
+        chocolates, Cookies, Sweets etc.
       </p>
       <button
         onClick={() => setModalOpen(true)}
